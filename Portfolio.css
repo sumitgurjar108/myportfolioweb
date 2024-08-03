@@ -1,0 +1,214 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -6;
+    overflow: hidden;
+}
+
+#myvideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 51, 51, 0.8);
+    margin: 0;
+    border-radius: 8px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: rgba(87, 87, 87, 0.8);
+    border-radius: 5px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #060317;
+}
+
+#Dashboard .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Dashboard .div1, #Dashboard .div2 {
+    flex: 1;
+    margin: 10px;
+}
+
+#Dashboard .div1 img {
+    border-radius: 20px;
+    width:600px;
+    height: 620px;
+    opacity: 0.9;
+    border-radius: 15px 75px; 
+}
+.paramy{
+    font-size: larger;
+    font-family: cursive,'Times New Roman', Times, serif;
+    font-weight: 400;
+    justify-content: center;
+    word-spacing: 18px;
+    color: #0f0d57fa;
+    align-items: center;
+    margin: 40px;
+}
+
+.pdf {
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.pdf a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.pdf a:hover {
+    text-decoration: underline;
+}
+
+.Education, .Experience {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 20px;
+}
+
+.edu1, .edu2, .Experience1, .Experience2 {
+    flex: 1;
+    margin: 10px;
+}
+
+pre {
+    background: rgba(169, 75, 154, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.45)red;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.image {
+    display: inline-block;
+    margin: 10px;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.image img:hover{
+    transform:rotateY(20deg);
+    transition-duration: 10ms;
+
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f7d0d051;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+fieldset img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.Projects ul {
+    padding: 100;
+   justify-content: center;
+    background-color: rgba(51, 51, 51, 0.042);
+    margin: 100;
+    border-radius: 8px;
+    width: 400px;   
+}
+ul li{
+    padding: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+    width: 400px;
+    box-shadow: 10px 10px 10px brown;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(16, 3, 43);
+    font-weight: bold;
+    padding: 15px 20px;
+    display:inline-block;
+}
+.spin{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    border: 2px solid red;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(186, 145, 11) ;
+}
